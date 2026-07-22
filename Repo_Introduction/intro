@@ -1,0 +1,38 @@
+# LangChain + RAG Learning Repo
+
+This repository is my **learning lab** for exploring **LangChain** and **Retrieval Augmented Generation (RAG)**.  
+It documents my journey with code, notes, and diagrams — making it easy for others to follow and reuse.
+
+## 🎯 Purpose
+- Learn LangChain fundamentals: **models, prompts, chains, memory, indexes, agents**  
+- Explore **RAG pipelines**: connecting LLMs with external knowledge using retrievers + vector databases  
+- Build a strong **portfolio** for freelancing and future AI projects
+
+## 📂 Repo Structure
+- `models/` → Experiments with HuggingFace & OpenRouter models  
+- `prompts/` → Prompt engineering practice  
+- `chains/` → Sequential & parallel chain workflows  
+- `memory/` → Conversation memory demos  
+- `indexes/` → Vector DB integrations  
+- `agents/` → Agent workflows  
+- `rag/` → RAG pipeline notebooks  
+- `diagrams/` → Architecture diagrams  
+
+## 🏗️ Architecture
+### LangChain Workflow
+- **User Input** → **Prompt** → **LLM Model** → **Output**
+
+### RAG Pipeline
+- **User Question** → **Retriever** → **Vector DB** → **LLM & Generation** → **Final Answer**
+
+![LangChain & RAG Architecture](diagrams/langchain_rag_architecture.png)
+
+## ⚡ How to Use
+1. Clone repo  
+2. Install requirements: `pip install -r requirements.txt`  
+3. Run notebooks in `/notebooks`  
+
+## 🔮 Future Plans
+- Experiment with **LangGraph**  
+- Build **multi-agent systems**  
+- Learn deployment frameworks
